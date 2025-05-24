@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Estilos básicos para el simulador de examen */
+.exam-simulator {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.exam-simulator h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.question-block {
+  margin-bottom: 1.5rem;
+}
+.question-block ul {
+  list-style: none;
+  padding: 0;
+}
+.question-block li {
+  margin-bottom: 0.5rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.exam-result {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e6ffe6;
+  border-radius: 10px;
+  text-align: center;
+}
+.exam-result button {
+  margin-top: 1rem;
+}
